@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV — Miroslav Peček (EN)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="toolbar no-print">
+      <p>
+        English CV.
+        <a href="index-cz.html">CZ verze</a>
+        · klikněte do textu pro úpravy · HTML = A4 1:1
+      </p>
+      <button type="button" id="btn-print">Tisk / PDF</button>
+    </div>
+
+    <article class="cv" id="cv">
+      <!-- LEFT -->
+      <aside class="sidebar">
+        <div class="photo-block">
+          <label class="photo-wrap" title="Klikněte pro výměnu fotky">
+            <input type="file" id="photo-input" accept="image/*" hidden />
+            <img id="photo" src="photo.png?v=2" alt="Profile photo" />
+          </label>
+        </div>
+
+        <section class="side-section">
+          <h2 contenteditable="true">CONTACT</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+              </span>
+              <span contenteditable="true">Prague, Czech Republic</span>
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1l-2.2 2.2z"/></svg>
+              </span>
+              <span contenteditable="true">+420 731 827 981</span>
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+              </span>
+              <span contenteditable="true">miroslav.pecek1@gmail.com</span>
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 4.4 2.9 8.1 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.2-3.4-1.2-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5C19.1 20.1 22 16.4 22 12c0-5.5-4.5-10-10-10z"/></svg>
+              </span>
+              <span contenteditable="true">github.com/GringoOG</span>
+            </li>
+            <li>
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM8.3 18.3H5.7V9.7h2.6v8.6zM7 8.4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zM18.3 18.3h-2.6v-4.2c0-1-.4-1.7-1.3-1.7-.7 0-1.1.5-1.3.9-.1.2-.1.4-.1.7v4.3h-2.6s.0-7 0-7.7h2.6v1.1c.3-.5 1-1.3 2.4-1.3 1.8 0 3.1 1.2 3.1 3.7v4.2z"/></svg>
+              </span>
+              <span contenteditable="true">linkedin.com/in/miroslavpecek</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="side-section">
+          <h2 contenteditable="true">LANGUAGES</h2>
+          <div class="lang">
+            <div class="lang-row">
+              <span contenteditable="true">Czech</span>
+              <span class="lang-level" contenteditable="true">Native</span>
+            </div>
+          </div>
+          <div class="lang">
+            <div class="lang-row">
+              <span contenteditable="true">Spanish</span>
+              <span class="lang-level" contenteditable="true">Advanced (C1)</span>
+            </div>
+            <!-- tečky: data-level="1" až "5" (kolik má být modrých) -->
+            <div class="dots" data-level="5" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="lang">
+            <div class="lang-row">
+              <span contenteditable="true">English</span>
+              <span class="lang-level" contenteditable="true">Advanced (C1)</span>
+            </div>
+            <div class="dots" data-level="5" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </section>
+
+        <section class="side-section">
+          <h2 contenteditable="true">CORE TECHNOLOGIES</h2>
+
+          <h3 contenteditable="true">AI & AUTOMATION</h3>
+          <ul class="tech" contenteditable="true">
+            <li>OpenAI API (GPT, Vision)</li>
+            <li>OCR & Image Processing</li>
+            <li>Prompt Engineering</li>
+            <li>Automation & Workflows</li>
+            <li>Cursor, Claude Code</li>
+          </ul>
+
+          <h3 contenteditable="true">BACKEND & DATABASE</h3>
+          <ul class="tech" contenteditable="true">
+            <li>Supabase</li>
+            <li>PostgreSQL / SQL</li>
+            <li>RESTful APIs</li>
+            <li>Authentication & RLS</li>
+            <li>Database Design</li>
+          </ul>
+
+          <h3 contenteditable="true">FRONTEND & WEB</h3>
+          <ul class="tech" contenteditable="true">
+            <li>React (basics)</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Framer</li>
+            <li>WordPress / Divi</li>
+            <li>responsive design</li>
+          </ul>
+
+          <h3 contenteditable="true">TESTING & QA</h3>
+          <ul class="tech" contenteditable="true">
+            <li>Selenium</li>
+            <li>Postman</li>
+            <li>Test Scenarios</li>
+            <li>Jira</li>
+            <li>Catalon Recorder</li>
+          </ul>
+
+          <h3 contenteditable="true">TOOLS & DEVOPS</h3>
+          <ul class="tech" contenteditable="true">
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Docker (basics)</li>
+            <li>Deployment & Hosting</li>
+            <li>CI/CD (basics)</li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- RIGHT -->
+      <main class="main">
+        <header class="hero">
+          <h1 contenteditable="true">MIROSLAV PEČEK</h1>
+          <p class="role" contenteditable="true">AI-Powered Full-Stack Developer</p>
+          <p class="tagline" contenteditable="true">
+            Building smart web applications and automating business processes with AI, cloud technologies and modern web stacks.
+          </p>
+
+          <div class="pillars">
+            <div class="pillar">
+              <span class="pillar-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M8 3h3l1 3h1l1-3h3v2h-2l-1.2 4H16l1 3h-2.2L16 18h-3l-1-3h-1l-1 3H7v-2h2l1.2-4H8l-1-3h2.2L8 5H8V3z"/></svg>
+              </span>
+              <span contenteditable="true">Full-Stack Development</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.7V18h8v-3.3A7 7 0 0 0 12 2zm-2 18h4v2h-4v-2z"/></svg>
+              </span>
+              <span contenteditable="true">AI & Automation Solutions</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M19 18H6a4 4 0 0 1-.3-8A6 6 0 0 1 17.5 8 4.5 4.5 0 0 1 19 18z"/></svg>
+              </span>
+              <span contenteditable="true">Cloud & Database Expertise</span>
+            </div>
+            <div class="pillar">
+              <span class="pillar-ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 19h16v2H4v-2zm2-3 4-8 3 5 2-3 5 6H6z"/></svg>
+              </span>
+              <span contenteditable="true">Business-Focused Results</span>
+            </div>
+          </div>
+        </header>
+
+        <section class="section">
+          <h2>
+            <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4zm0 2c-4 0-8 2-8 4v2h16v-2c0-2-4-4-8-4z"/></svg></span>
+            <span contenteditable="true">PROFESSIONAL SUMMARY</span>
+          </h2>
+          <div class="prose" contenteditable="true">
+            <p>Full-stack developer with a strong background in engineering and automation. I build modern web applications, integrate AI solutions and automate business processes to increase efficiency and reduce costs.</p>
+            <p>Experienced in delivering end-to-end solutions — from idea and architecture to deployment and long-term support.</p>
+            <p>My unique combination of technical expertise, problem-solving mindset and practical experience in industrial systems allows me to bridge the gap between technology and real business needs.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>
+            <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z"/></svg></span>
+            <span contenteditable="true">KEY PROJECTS</span>
+          </h2>
+
+          <div class="project">
+            <span class="proj-ico" aria-hidden="true">📷</span>
+            <div class="proj-body">
+              <h3 contenteditable="true">AI Meter Reading System</h3>
+              <p contenteditable="true">AI-powered tool for automatic recognition of industrial meters from photos. Includes OCR, historical matching, confidence scoring and Excel export.</p>
+            </div>
+            <div class="tags" contenteditable="true">
+              <span>OpenAI API</span><span>Python</span><span>OCR</span><span>Supabase</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <span class="proj-ico" aria-hidden="true">🧯</span>
+            <div class="proj-body">
+              <h3 contenteditable="true">Fire Protection Management Platform</h3>
+              <p contenteditable="true">Web application for technicians. Includes CRM, scheduling of inspections, PDF certificates, invoicing and reminders.</p>
+            </div>
+            <div class="tags" contenteditable="true">
+              <span>React</span><span>Supabase</span><span>PostgreSQL</span><span>PDF API</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <span class="proj-ico" aria-hidden="true">🎓</span>
+            <div class="proj-body">
+              <h3 contenteditable="true">Online Training & Certification Portal</h3>
+              <p contenteditable="true">E-learning platform (onlineskoleni.eu) with quizzes, certificates and PDF generation. Admin dashboard, user management, analytics — plus marketing via Google Analytics &amp; Google Ads.</p>
+            </div>
+            <div class="tags" contenteditable="true">
+              <span>Supabase</span><span>React</span><span>PostgreSQL</span><span>PDF API</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <span class="proj-ico" aria-hidden="true">🌐</span>
+            <div class="proj-body">
+              <h3 contenteditable="true">Business Websites & Web Applications</h3>
+              <p contenteditable="true">Design and development of modern websites in Framer, Divi and Cursor AI with a focus on UX, performance and conversion.</p>
+            </div>
+            <div class="tags" contenteditable="true">
+              <span>Framer</span><span>Divi</span><span>Cursor AI</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>
+            <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 2h4l1 2h5v2H4V4h5l1-2zm-6 6h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8z"/></svg></span>
+            <span contenteditable="true">PROFESSIONAL EXPERIENCE</span>
+          </h2>
+
+          <div class="timeline">
+            <article class="job">
+              <div class="job-date" contenteditable="true">2025 – Present</div>
+              <div class="job-dot"></div>
+              <div class="job-body">
+                <h3 contenteditable="true">Freelance AI-Powered Full-Stack Developer</h3>
+                <p class="job-place" contenteditable="true">Remote / Various Clients</p>
+                <ul contenteditable="true">
+                  <li>Design and development of custom web applications and automation solutions.</li>
+                  <li>Integration of AI (OpenAI API, Vision models) for data extraction and workflows.</li>
+                  <li>Building databases, APIs and user interfaces from scratch.</li>
+                  <li>Automation of business processes and generation of PDF documents.</li>
+                  <li>Marketing management with Google Analytics and Google Ads (onlineskoleni.eu).</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job">
+              <div class="job-date" contenteditable="true">2023 – 2026</div>
+              <div class="job-dot"></div>
+              <div class="job-body">
+                <h3 contenteditable="true">Facility Management Specialist & Technician</h3>
+                <p class="job-place" contenteditable="true">Farm Therm s.r.o., Prague</p>
+                <ul contenteditable="true">
+                  <li>Integration of supervision systems and automation of energy readings.</li>
+                  <li>Remote monitoring and diagnostics of HVAC and electrical infrastructure.</li>
+                  <li>Creating technical proposals and managing client portfolios.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job">
+              <div class="job-date" contenteditable="true">2021 – 2022</div>
+              <div class="job-dot"></div>
+              <div class="job-body">
+                <h3 contenteditable="true">Freelance Electrical Technician</h3>
+                <p class="job-place" contenteditable="true">Smart Home Systems Integration, Brno</p>
+                <ul contenteditable="true">
+                  <li>Installation and integration of smart home solutions and electrical systems.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job">
+              <div class="job-date" contenteditable="true">2018 – 2020</div>
+              <div class="job-dot"></div>
+              <div class="job-body">
+                <h3 contenteditable="true">Electrical Technician</h3>
+                <p class="job-place" contenteditable="true">Teaz s.r.o., Otrokovice</p>
+                <ul contenteditable="true">
+                  <li>Commissioning and startup of industrial machinery.</li>
+                  <li>Troubleshooting and resolving complex electrical issues.</li>
+                  <li>Assembly and wiring of control systems and panels.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="job">
+              <div class="job-date" contenteditable="true">2015 – 2017</div>
+              <div class="job-dot"></div>
+              <div class="job-body">
+                <h3 contenteditable="true">Operator and Programmer (CNC)</h3>
+                <p class="job-place" contenteditable="true">Sykora kitchens, Vizovice</p>
+                <ul contenteditable="true">
+                  <li>CNC machine operation and programming (IMA Novimat).</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="bottom-grid">
+          <div>
+            <h2>
+              <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm0 13L5 12.2V16l7 3.8L19 16v-3.8L12 16z"/></svg></span>
+              <span contenteditable="true">EDUCATION</span>
+            </h2>
+            <div class="edu" contenteditable="true">
+              <p class="edu-date">2024</p>
+              <p class="edu-title">Tester Academy – SKLO12</p>
+              <p>Skillmea</p>
+              <p class="muted">Course in Fundamentals of Programming and Software Testing (3-month program)</p>
+            </div>
+            <div class="edu" contenteditable="true">
+              <p class="edu-date">2010 – 2014</p>
+              <p class="edu-title">Technical High School</p>
+              <p>SPŠ Zlín, Zlín</p>
+              <p class="muted">Low-current Electrical Engineering</p>
+            </div>
+          </div>
+
+          <div>
+            <h2>
+              <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7z"/></svg></span>
+              <span contenteditable="true">CERTIFICATES & LICENCES</span>
+            </h2>
+            <ul class="certs" contenteditable="true">
+              <li><strong>Certified Electrician</strong><br />Czech Republic, Licence §7</li>
+              <li><strong>Tester Academy – SKLO12</strong><br />Skillmea</li>
+              <li><strong>Driving Licence B</strong><br />Car</li>
+              <li><strong>Driving Licence A</strong><br />Motorbike</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>
+              <span class="sec-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"/></svg></span>
+              <span contenteditable="true">INTERESTS</span>
+            </h2>
+            <ul class="interests" contenteditable="true">
+              <li><strong>Traveling & Exploring</strong><br />2 years of experience in Latin America</li>
+              <li><strong>IT & Technology</strong><br />Development, AI, automation, new tools</li>
+              <li><strong>Sport</strong><br />Running, cycling, hiking, basketball, MTB</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </article>
+
+    <script src="app.js"></script>
+  </body>
+</html>
